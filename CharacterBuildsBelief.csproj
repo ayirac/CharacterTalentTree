@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E1500999-5657-4EE6-910C-8119B842C349}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BegottenCharacterBuildsBelief</RootNamespace>
+    <AssemblyName>BegottenCharacterBuildsBelief</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="resources\toolTipImage.png" />
+    <None Include="resources\prison_of_flesh.png" />
+    <None Include="resources\yellow_and_black.png" />
+    <None Include="resources\wriggle_fucking_eel.png" />
+    <None Include="resources\wire_therapy.png" />
+    <None Include="resources\the_storm.png" />
+    <None Include="resources\the_paradox_riddle_equation.png" />
+    <None Include="resources\the_light.png" />
+    <None Include="resources\repentant.png" />
+    <None Include="resources\purity_afloat.png" />
+    <None Include="resources\witch.png" />
+    <None Include="resources\unending_dance.png" />
+    <None Include="resources\survivalist.png" />
+    <None Include="resources\sorcerer.png" />
+    <None Include="resources\soothsayer.png" />
+    <None Include="resources\satanism.png" />
+    <None Include="resources\sadism.png" />
+    <None Include="resources\primevalism.png" />
+    <None Include="resources\van-dijck-mt-std.otf" />
+    <None Include="resources\young_son.png" />
+    <None Include="resources\witch_druid.png" />
+    <None Include="resources\watchful_raven.png" />
+    <None Include="resources\the_black_sea.png" />
+    <None Include="resources\taste_of_iron.png" />
+    <None Include="resources\sister.png" />
+    <None Include="resources\shieldwall.png" />
+    <None Include="resources\shedskin.png" />
+    <None Include="resources\one_with_the_druids.png" />
+    <None Include="resources\thief.png" />
+    <None Include="resources\swift.png" />
+    <None Include="resources\sly_fidget.png" />
+    <None Include="resources\safecracker.png" />
+    <None Include="resources\scour_the_rust.png" />
+    <None Include="resources\pistolier.png" />
+    <None Include="resources\talented.png" />
+    <None Include="resources\plenty_to_spill.png" />
+    <None Include="resources\outlasting.png" />
+    <None Include="resources\warden.png" />
+    <None Include="resources\unyielding.png" />
+    <None Include="resources\unburdened.png" />
+    <None Include="resources\sanity_composure.png" />
+    <None Include="resources\prudence.png" />
+    <None Include="resources\savage_animal.png" />
+    <None Include="resources\savage.png" />
+    <None Include="resources\primeval.png" />
+    <None Include="resources\persistent_urges.png" />
+    <None Include="resources\surgeon.png" />
+    <None Include="resources\scribe.png" />
+    <None Include="resources\scientist.png" />
+    <None Include="resources\sanitary.png" />
+    <None Include="resources\precise_measurements.png" />
+    <None Include="resources\plague_doctor.png" />
+    <None Include="resources\greenover.png" />
+    <None Include="resources\wrestle_subdue.png" />
+    <None Include="resources\warrior.png" />
+    <None Include="resources\unrelenting.png" />
+    <None Include="resources\swordsman.png" />
+    <None Include="resources\strength.png" />
+    <None Include="resources\sidestep.png" />
+    <None Include="resources\repulsive_riposte.png" />
+    <None Include="resources\parrying.png" />
+    <None Include="resources\might.png" />
+    <None Include="resources\master_at_arms.png" />
+    <None Include="resources\halfsword_sway.png" />
+    <None Include="resources\fighter.png" />
+    <None Include="resources\deflection.png" />
+    <None Include="resources\billman.png" />
+    <None Include="resources\alchemist.png" />
+    <None Include="resources\anthropologist.png" />
+    <None Include="resources\blood_nectar.png" />
+    <None Include="resources\chemist.png" />
+    <None Include="resources\doctor.png" />
+    <None Include="resources\literacy.png" />
+    <None Include="resources\loremaster.png" />
+    <None Include="resources\medicine_man.png" />
+    <None Include="resources\brutality.png" />
+    <None Include="resources\asceticism.png" />
+    <None Include="resources\believers_perseverance.png" />
+    <None Include="resources\defender.png" />
+    <None Include="resources\hide_of_steel.png" />
+    <None Include="resources\iron_bones.png" />
+    <None Include="resources\lunar_repudiation.png" />
+    <None Include="resources\jack_of_all_trades.png" />
+    <None Include="resources\lucky.png" />
+    <None Include="resources\favored.png" />
+    <None Include="resources\fortunate.png" />
+    <None Include="resources\gifted.png" />
+    <None Include="resources\cookist.png" />
+    <None Include="resources\craftsman.png" />
+    <None Include="resources\culinarian.png" />
+    <None Include="resources\hauberk.png" />
+    <None Include="resources\ingenious.png" />
+    <None Include="resources\marksman.png" />
+    <None Include="resources\mechanic.png" />
+    <None Include="resources\artisan.png" />
+    <None Include="resources\blacksmith.png" />
+    <None Include="resources\blessed_powder.png" />
+    <None Include="resources\dexterity.png" />
+    <None Include="resources\evasion.png" />
+    <None Include="resources\nimble.png" />
+    <None Include="resources\gift_great_tree.png" />
+    <None Include="resources\honor_the_gods.png" />
+    <None Include="resources\man_become_beast.png" />
+    <None Include="resources\mother.png" />
+    <None Include="resources\bestial.png" />
+    <None Include="resources\daring_trout.png" />
+    <None Include="resources\deceitful_snake.png" />
+    <None Include="resources\fanaticism.png" />
+    <None Include="resources\father.png" />
+    <None Include="resources\fearsome_wolf.png" />
+    <None Include="resources\blank_stare.png" />
+    <None Include="resources\creature_of_the_dark.png" />
+    <None Include="resources\embrace_the_darkness.png" />
+    <None Include="resources\encore.png" />
+    <None Include="resources\flamboyance.png" />
+    <None Include="resources\heretic.png" />
+    <None Include="resources\impossibly_skilled.png" />
+    <None Include="resources\murder_artform.png" />
+    <None Include="resources\acolyte.png" />
+    <None Include="resources\blessed_pwoder2.png" />
+    <None Include="resources\disciple.png" />
+    <None Include="resources\emissary.png" />
+    <None Include="resources\extinctionist.png" />
+    <None Include="resources\faith-glaze.png" />
+    <None Include="resources\faith-traditionalist.png" />
+    <None Include="resources\faith-volt.png" />
+    <None Include="resources\flagellant.png" />
+    <None Include="resources\jacobs_ladder.png" />
+    <Content Include="resources\off.png" />
+    <None Include="resources\old_son.png" />
+    <Content Include="resources\on.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
